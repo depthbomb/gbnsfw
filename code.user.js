@@ -14,10 +14,12 @@
 // ==/UserScript==
 
 $.noConflict(true);
+
 const unNsfw = () => {
     $("#NsfwWarningModule").slideUp();
     $("module.Invisible").removeClass("Invisible");
 };
+
 $(document).ready(unNsfw());
 $(document).on("InitialPageReady PersistentNavReqComplete", function() {
     unNsfw()
