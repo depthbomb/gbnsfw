@@ -9,8 +9,8 @@
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
 // @require      https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js
 // @grant        none
-// @downloadURL  https://github.com/depthbomb/gbnsfw/raw/master/code.user.js
-// @updateURL    https://github.com/depthbomb/gbnsfw/raw/master/code.user.js
+// @downloadURL  https://raw.githubusercontent.com/depthbomb/gbnsfw/master/code.user.js
+// @updateURL    https://raw.githubusercontent.com/depthbomb/gbnsfw/master/code.user.js
 // ==/UserScript==
 
 $.noConflict(true);
