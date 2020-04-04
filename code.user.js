@@ -20,7 +20,9 @@ const unNsfw = () => {
     $("module.Invisible").removeClass("Invisible");
 };
 
+// Handle navgiating directly to a submission (like viewing the page from an external site)
 $(document).ready(unNsfw());
+// Handle navigating to a submission on-site
 $(document).on("InitialPageReady PersistentNavReqComplete", function() {
     unNsfw();
 });
