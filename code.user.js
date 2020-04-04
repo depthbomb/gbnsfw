@@ -22,5 +22,5 @@ const unNsfw = () => {
 
 $(document).ready(unNsfw());
 $(document).on("InitialPageReady PersistentNavReqComplete", function() {
-    unNsfw()
+    unNsfw();
 });
